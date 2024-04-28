@@ -1,0 +1,20 @@
+//initialise the vector
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    vector<float>myVector;
+    
+    myVector.push_back(10.3);
+    myVector.push_back(20.2);
+    myVector.push_back(30.3);
+    
+    cout<<"Elements of the vector:";
+    for (int i =0; i< myVector.size();++i){
+        cout<<myVector[i]<<"  ";
+        
+    }
+    cout<<endl;
+    
+    return 0;
+}
